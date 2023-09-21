@@ -24,6 +24,7 @@ namespace EjercicioRepaso
 
             MenuInterface menuInterface = new MenuImpl();
             ControlEmpleadoInterface controlEmpleadoInterface = new ControlEmpleadoImpl();
+            GestionFicherosInterface gestionFichero = new GestionFicherosImpl();
 
             do
             {
@@ -42,9 +43,10 @@ namespace EjercicioRepaso
                         controlEmpleadoInterface.MostrarEmpleados(listaEmpleados);
                         break;
                     case 4:
+                        gestionFichero.ExportarFichero(listaEmpleados);
                         break;
                     case 0:  
-                        cerrarMenu = Util.PreguntaSiNo("¿Confirma que quiere cerrar la aplicación? (S=si / N=no): "); ;
+                        cerrarMenu = Util.PreguntaSiNo("¿Confirma que quiere cerrar la aplicación (S=si / N=no) "); ;
                         break;
                 }
 

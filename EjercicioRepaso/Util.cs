@@ -27,9 +27,9 @@ namespace EjercicioRepaso
                 Console.Write("\n\t{0}: ", mensaje);
                 esCorrecto = Int32.TryParse(Console.ReadLine(), out valor);
                 if (!esCorrecto) 
-                    Console.WriteLine("\n\t** Error debe introducir un número entero  **");
+                    Console.WriteLine("\n\t** Error, debe introducir un número entero  **");
                 else if (valor < min || valor > max)
-                    Console.WriteLine("\n\t** Error el número introducido no es correcto  **");
+                    Console.WriteLine("\n\t** Error, el número introducido no es correcto  **");
 
             }
             while (!esCorrecto || valor < min || valor > max);
@@ -51,7 +51,7 @@ namespace EjercicioRepaso
                 respuesta = Console.ReadKey().KeyChar;
 
                 if (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n')
-                    Console.WriteLine("\n\n\t** Error ** Debes responder con S o N (S=si / N=no) **");
+                    Console.WriteLine("\n\n\t** Error, debes responder con S o N (S=si / N=no) **");
 
             } while (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n');
 

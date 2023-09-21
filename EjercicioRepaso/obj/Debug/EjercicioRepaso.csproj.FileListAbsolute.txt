@@ -5,3 +5,10 @@ C:\Users\niko_\source\repos\EjercicioRepaso\EjercicioRepaso\bin\Debug\EjercicioR
 C:\Users\niko_\source\repos\EjercicioRepaso\EjercicioRepaso\bin\Debug\EjercicioRepaso.pdb
 C:\Users\niko_\source\repos\EjercicioRepaso\EjercicioRepaso\obj\Debug\EjercicioRepaso.exe
 C:\Users\niko_\source\repos\EjercicioRepaso\EjercicioRepaso\obj\Debug\EjercicioRepaso.pdb
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\bin\Debug\EjercicioRepaso.exe.config
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\bin\Debug\EjercicioRepaso.exe
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\bin\Debug\EjercicioRepaso.pdb
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\obj\Debug\EjercicioRepaso.csproj.AssemblyReference.cache
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\obj\Debug\EjercicioRepaso.csproj.CoreCompileInputs.cache
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\obj\Debug\EjercicioRepaso.exe
+C:\Users\Puesto9\Desktop\DIW .NET\EjercicioRepasoPuntoNet\EjercicioRepaso\obj\Debug\EjercicioRepaso.pdb

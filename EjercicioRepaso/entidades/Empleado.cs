@@ -51,7 +51,8 @@ namespace EjercicioRepaso.entidades
         /// </summary>
         public void MostrarDatos()
         {
-            Console.Write("\n\n\t\t--- Datos del empleado {7} ---\n\n\tNombre y apellidos: {0} {1}\n\tDNI: {2}\n\tFecha de nacimiento: {3}\n\tTitulación: {4}\n\tNúmero Seguridad Social: {5}\n\tNúmero de empleado: {6}", Nombre, Apellidos, Dni, FechaNacimiento, Titulacion, NumSeguridadSocial, NumEmpleado, NumEmpleado);
+            Console.Write("\n\n\t--- Datos del empleado con Nº{7} ---\n\n\tNombre y apellidos: {0} {1}\n\tDNI: {2}\n\tFecha de nacimiento: {3}\n\tTitulación: {4}\n\tNúmero Seguridad Social: {5}\n\tNúmero de empleado: {6}", Nombre, Apellidos, Dni, FechaNacimiento, Titulacion, NumSeguridadSocial, NumEmpleado, NumEmpleado);
         }
+        
     }
 }

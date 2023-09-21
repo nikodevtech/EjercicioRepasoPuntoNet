@@ -12,7 +12,6 @@ namespace EjercicioRepaso.servicios
 {
     internal class ControlEmpleadoImpl : ControlEmpleadoInterface
     {
-
         public void RegistroEmpleado(List<Empleado> listaEmpleados)
         {
             string nombre, apellidos, dni, fechaNacimiento, titulacion, numCuentaBancaria;
@@ -49,7 +48,7 @@ namespace EjercicioRepaso.servicios
 
                 int posicionEmpleado=0;
 
-                //Iteramos para encontrar en que posición se ubica en la lista el empleado elegido por el usuario
+                //Iteramos para encontrar en que posición está en la lista está el empleado elegido por el usuario
                 for (int i=0;i<listaEmpleados.Count;i++) 
                 {
                     if (listaEmpleados[i].NumEmpleado == numEmpleado)
@@ -103,7 +102,6 @@ namespace EjercicioRepaso.servicios
                 }
                 Console.WriteLine("\n\t** Empleado modificado correctamente **");
             }
-
         }
 
         public void MostrarEmpleados(List<Empleado> listaEmpleados)
@@ -111,8 +109,7 @@ namespace EjercicioRepaso.servicios
             if (listaEmpleados.Count != 0)
             {
                 foreach (Empleado e in listaEmpleados)           
-                    e.MostrarDatos();
-                
+                    e.MostrarDatos();    
             }
             else
                 Console.WriteLine("\n\t** No hay empleados registrados en el sistema **");
@@ -138,9 +135,8 @@ namespace EjercicioRepaso.servicios
                         idMayor = empleado.NumEmpleado;
                 }
                 
-                return idMayor + 1;
+                return ++idMayor;
             }
         }
-
     }
 }

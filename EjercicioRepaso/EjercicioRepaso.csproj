@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="servicios\ControlEmpleadoImpl.cs" />
     <Compile Include="servicios\ControlEmpleadoInterface.cs" />
+    <Compile Include="servicios\GestionFicherosImpl.cs" />
+    <Compile Include="servicios\GestionFicherosInterface.cs" />
     <Compile Include="servicios\MenuImpl.cs" />
     <Compile Include="servicios\MenuInterface.cs" />
     <Compile Include="Util.cs" />
