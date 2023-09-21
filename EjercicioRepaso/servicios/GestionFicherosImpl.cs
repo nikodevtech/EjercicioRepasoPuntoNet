@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace EjercicioRepaso.servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz para la gestión del tratamiento de fichero,
+    /// en ella se definen el detalle y la funcionalidad de dichos métodos.
+    /// </summary>
     internal class GestionFicherosImpl : GestionFicherosInterface
     {
         public void ExportarFichero(List<Empleado> listaEmpleados)

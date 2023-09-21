@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace EjercicioRepaso.servicios
 {
+    /// <summary>
+    /// Interfaz que tiene la cabecera de los métodos que dan servicio a la gestión
+    /// de ficheros.
+    /// </summary>
     internal interface GestionFicherosInterface
     {
         /// <summary>

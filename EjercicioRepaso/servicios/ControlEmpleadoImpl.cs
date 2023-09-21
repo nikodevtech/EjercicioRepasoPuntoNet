@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace EjercicioRepaso.servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz que da servicio a la gestión de empleados,
+    /// en ella es donde se detalla la funcionalidad concreta de los métodos de dicha interfaz.
+    /// </summary>
     internal class ControlEmpleadoImpl : ControlEmpleadoInterface
     {
         public void RegistroEmpleado(List<Empleado> listaEmpleados)
